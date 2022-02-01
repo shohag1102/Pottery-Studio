@@ -2,4 +2,123 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: sans-serif;
 }
+/*------ common button desing  start------*/
+.common_btn {
+  padding: 10px 20px;
+  background-color: rgb(241, 177, 56);
+  border: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: black;
+}
+/*------ common button desing  end------*/
+
+/*------ Heading  start------*/
+
+.heading {
+  height: 660px;
+  color: white;
+}
+
+.heading img{
+    width: 100%;
+    height: 100%;
+}
+
+.heading .heading_card {
+  width: 40%;
+  float: left;
+  padding: 50px 0 0 70px;
+  margin: 165px auto;
+  position: absolute;
+  top: 30px;
+}
+
+.heading_card h1 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+.heading_card p {
+  font-size: 15px;
+  font-weight: 100;
+  margin-bottom: 20px;
+}
+
+/*------ Heading end------*/
+
+/*------ About section start------*/
+
+.about{
+    height: 500px;
+    text-align: center;
+    color: white;
+}
+.about_left{
+    width: 50%;
+    height: 500px;
+    float: left;
+    background-color: rgb(48, 47, 47);
+}
+.desc{
+    width: 60%;
+    margin: 150px auto;
+}
+.desc h1{
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.desc p{
+    font-size: 15px;
+  font-weight: 100;
+}
+
+.about_right{
+    width: 50%;
+    height: 500px;
+    float: right;
+    background-color: rgb(32, 32, 32);
+}
+.about_right .heading_card{
+    margin: 150px auto;
+}
+
+/*------ About section end------*/
+
+/*------ Event section start------*/
+
+.event{
+    height: 660px;
+}
+.event .event_card{
+    width: 30%;
+    float: left;
+    height: 660px;
+}
+.event_card .heading_card{
+    padding: 200px 70px 0 70px;
+}
+.event_card .heading_card p{
+    line-height: 20px;
+}
+
+.event_image{
+    width: 70%;
+    height: 660px;
+    float: right;
+}
+.event_image img{
+    width: 100%;
+    height: 100%;
+}
+
+/*------ Event section end------*/
+
+/*------ Member section start------*/
+
+
+
+/*------ Member section end------*/
